@@ -1,0 +1,23 @@
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+  }
+  
+  .footer .row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer .column {
+    width: 50%;
+  }
+  
+  .footer .copyright {
+    text-align: center;
+  }

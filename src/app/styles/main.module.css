@@ -1,0 +1,25 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .hero {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .text {
+    width: 50%;
+  }
+/*   
+  .image {
+    width: 50%;
+  } */
+  
+  .image img {
+    border-radius: 10px;
+    object-fit: contain;
+  }
+  
