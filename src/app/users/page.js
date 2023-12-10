@@ -1,6 +1,6 @@
 import React from "react";
 async function getUsers() {
-  let data = await fetch("http://localhost:3001/api/users");
+  let data = await fetch("http://localhost:3000/api/users");
   data = await data.json();
   return data;
 }
